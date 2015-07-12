@@ -1,6 +1,26 @@
-footer {
- position: fixed;
-    text-align: center;
-    bottom: 0;
-    padding-top: 20px;
+html {
+    position: relative;
+    min-height: 100%;
 }
+body {
+    background-color: beige;
+}
+footer {
+    position: fixed;
+    bottom: 0%;
+    padding-top: 15px;
+    text-align: center;
+    background-color: floralwhite;
+    text-align: center;
+    width: 100%;
+    height: 50px
+}
+.sarge {
+    float: left;
+    padding: 20px 20px 20px 20px;
+}
+.jumbotron {
+    background-color: floralwhite;
+    text-align: center;
+}
+
