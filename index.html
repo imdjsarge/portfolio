@@ -9,7 +9,7 @@
     <title>My Portfolio :: Sarge</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link href="portfolio.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -21,24 +21,32 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a class="navbar-brand" href="#">Robert "Sarge" Gallo</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Projects <span class="sr-only">(current)</span></a></li>
 
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Work History</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Resume</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Education</a></li>
+                            <li><a href="#">Work History</a></li>
+                        </ul>
+                    </li>
                 </ul>
-
 
 
             </div>
@@ -46,30 +54,69 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-<div class="row">
-  <div class="col-xs-12 col-sm-6 col-md-6">Window</div>
-  <div class="col-xs-6 col-md-6">Linux</div>
-      <div class="col-xs-6 col-md-6">Network Administration</div>
-      <div class="col-xs-6 col-md-6">HTML</div>
-      <div class="col-xs-6 col-md-6">JavaScript</div>
-</div>
 
-    
+    <div class="container">
+        <div class="col-xs-12 col-md-6">
+            <img class="sarge" src="images/Sarge_DJ_MC-faae618239.jpg" width="130" height="196" class="img-responsive .center-block ">
+        </div>
+        <div class="container">
+            <address class="col-xs-12 col-md-6 text-left">
+        Robert "Sarge" Gallo<br>
+        15608 Eden Drive North<br>
+        Eden Prairie, MN 55346<br>
+        <a href="mailto:rgallo001@my.hennepintech.edu ">rgallo001@my.hennepintech.edu</a>
+            </address>
+        </div>
+
+
+        <div class="container text-right">
+            <div class="col-xs-12 col-md-6">
+                <div class="row">
+                    <div class="col-xs-6 col-md-6 ">Windows</div>
+                    <div class="col-xs-6 col-md-6">Linux</div>
+                    <div class="col-xs-6 col-md-6">Network Administration</div>
+                    <div class="col-xs-6 col-md-6">HTML</div>
+                    <div class="col-xs-6 col-md-6">JavaScript</div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
     <div class=" jumbotron ">
-                    <div class="col-xs-12 col-md-12 col-md-pull-12">
-                <img class="sarge" src="images/Sarge_DJ_MC-faae618239.jpg" width="130" height="196" class="img-responsive .center-block img-rounded">
+        <h1 class="text-center">My Portfolio</h1>
+
     </div>
-        <h1>My Portfolio<br><small>The works of Robert "Sarge " Gallo</small></h1>
-        <p>15608 Eden Drive North</p>
-        <p>Eden Prairie, MN 55346</p>
-        <p><a href="mailto:rgallo001@my.hennepintech.edu ">rgallo001@my.hennepintech.edu</a></p>
+
+
+
+
+
+
+
+
+
+    <div class="projects">
+        <h3 class="text-center">My Projects</h3>
+        <div class="col-xs-12 col-md-6 "><img src="images/Pacific_Trails_Resort.jpg" class="img-responsive " alt="Pacific Trails Resort">
+            <div class="col-xs-12> col-md-6"><img src="images/ms_b_veggies.jpg" class="img-responsive " alt="Ms B's Veggies">
+            </div>
+        </div>
     </div>
-                                                  
-<footer>
-   
-            <p>Copyright &copy; 2015, Robert "Sarge " Gallo</p>
-  
-</footer>
+
+
+
+
+
+
+
+    <footer>
+
+        <p>Copyright &copy; 2015, Robert "Sarge " Gallo</p>
+
+    </footer>
 
 
 
