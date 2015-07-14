@@ -3,7 +3,7 @@ html {
     min-height: 100%;
 }
 body {
-    background-color: beige;
+    background-color: floralwhite;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -12,19 +12,21 @@ footer {
     bottom: 0%;
     padding-top: 15px;
     text-align: center;
-    background-color: floralwhite;
-    text-align: center;
+    background-color: #000000;
+    text-decoration-color: white;
+    font-weight: bolder;
     width: 100%;
     height: 50px;
     margin-top: 50px;
-}
+    }
+
 .sarge {
     margin-top: 50px;
     float: left;
     padding: 10px 10px 10px 10px;
 }
 .jumbotron {
-    background-color: floralwhite;
+    background-color:floralwhite;
     text-align: center;
 }
 navbar {
@@ -37,10 +39,14 @@ navbar {
     align-content: center;
 }
 .projects img {
- float: none;
+    float: none;
+    margin-top: 20px;
     margin-bottom: 50px;
-    
+    margin-left: 20px;
+    box-shadow: 3px 3px 3px #ffffff;
 }
+    
+
 .row {
     font-weight: bold;
    
