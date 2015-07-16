@@ -2,11 +2,72 @@ html {
     position: relative;
     min-height: 100%;
 }
+
 body {
-    background-color: floralwhite;
+    margin-top: 50px;
+}
+
+#wallpaper {
+    background-color: cadetblue;
     background-position: center;
     background-repeat: no-repeat;
 }
+
+#background {
+    background-color: aquamarine;
+}
+
+section {
+    margin: 20px 20px 20px 20px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+#skills {
+    background-color: blueviolet;
+    border-bottom-color: black;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.sarge {
+    margin: 10px 0px 20px 20px;
+}
+
+#portfolio {
+    text-align: center;
+    background-color: brown
+}
+
+navbar {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 50%;
+    align-content: center;
+}
+
+.projects img {
+    margin: 20px 0px 60px 20px;
+    box-shadow: 3px 3px 3px #ffffff;
+    background-color: brown;
+}
+
+.row {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+address {
+    font-weight: bold;
+    display: block;
+    margin-left: 20px;
+}
+
 footer {
     position: fixed;
     bottom: 0%;
@@ -18,40 +79,4 @@ footer {
     width: 100%;
     height: 50px;
     margin-top: 50px;
-    }
-
-.sarge {
-    margin-top: 50px;
-    float: left;
-    padding: 10px 10px 10px 10px;
-}
-.jumbotron {
-    background-color:floralwhite;
-    text-align: center;
-}
-navbar {
-    position: fixed;
-    top: 0%;
-    background-color: floralwhite;
-    padding-bottom: 15px;
-    width: 100%;
-    height: 50%;
-    align-content: center;
-}
-.projects img {
-    float: none;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    margin-left: 20px;
-    box-shadow: 3px 3px 3px #ffffff;
-}
-    
-
-.row {
-    font-weight: bold;
-   
-}
-
-address {
-   font-weight: bold    
 }
