@@ -2,47 +2,33 @@ html {
     position: relative;
     min-height: 100%;
 }
-
 body {
     margin-top: 50px;
     background-color: #cccccc;
 }
-
-
 #linkedin {
- padding: 5px 0px 0px 19px;   
+    padding: 5px 0px 0px 19px;
 }
-
 .welcome {
     display: inline;
     font-weight: bold;
     text-align: center;
-    font-family: ludica handwritting, brush script; cursive;
+    font-family: Times New Roman, Georgia, serif;
     font-size: 20px;
-    
-    
 }
-
-
-
 .sarge {
     margin: 10px 0px 20px 20px;
     float: none;
 }
-
-
-
 .row {
     font-weight: bold;
     margin-top: 10px;
 }
-
 address {
     font-weight: bold;
     display: block;
     margin-left: 20px;
 }
-
 footer {
     position: fixed;
     bottom: 0%;
