@@ -1,12 +1,13 @@
 html {
     position: relative;
     min-height: 100%;
+    t3o
 }
 body {
     margin-top: 50px;
     background-color: #cccccc;
 }
-#linkedin {
+.linkedin {
     padding: 5px 0px 0px 19px;
 }
 .welcome {
