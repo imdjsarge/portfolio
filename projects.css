@@ -19,7 +19,7 @@ navbar {
 
 }
 
-.projects img {
+#projects img {
     margin: 50px 0px 60px 20px;
     box-shadow: 3px 3px 3px #ffffff;
     background-color: brown;

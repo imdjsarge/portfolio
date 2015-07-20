@@ -2,12 +2,15 @@ html {
     position: relative;
     min-height: 100%;
 }
-body {
-    margin-top: 50px;
+#wallpaper {
     background-color: #cccccc;
 }
+body {
+    margin-top: 50px;
+}
+
 .linkedin {
-    padding: 5px 0px 0px 19px;
+    padding: 5px 0px 0px 0px;
 }
 .welcome {
     display: inline;
@@ -17,22 +20,47 @@ body {
     font-size: 20px;
 }
 .sarge {
-    margin: 10px 0px 20px 20px;
+    margin: 10px 0px 10px 0px;
     float: none;
 }
-.row {
+.school{
+    text-align: center;
     font-weight: bold;
-    margin-top: 10px;
-}
-address {
-    font-weight: bold;
-    display: block;
-    margin-left: 20px;
-}
-#education {
-  
-    background-color: white;
+    font-family: serif;
 
+    }
+
+#education {
+    background-color: darkgoldenrod
+}
+.dropt img {
+    padding-top: 5px;
+}
+
+.edu {
+    text-align: center;
+
+}
+
+#skills {
+    background-color: floralwhite;
+    border-bottom: solid;
+    border-top: solid; border-top-width: 1px;
+
+}
+
+#projects {
+    margin-bottom: 50px;
+    
+}
+#portfolio {
+    text-align: center;
+    background-color: cornsilk;
+
+}
+.projects img {
+    margin: 50px 0px 60px 20px;
+    box-shadow: 3px 3px 3px #ffffff;
 }
 footer {
     position: fixed;
