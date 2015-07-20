@@ -6,17 +6,13 @@ body {
     margin-top: 50px;
     background-color: #cccccc;
 }
-
 #education {
-    margin: 20px 0px 0px 20px;
+    margin: 20px 0px 20px 20px;
     background-color: beige;
     width: 14%;
-
 }
 #edu {
     background-color: dimgrey;
-    
-    
 }
 .title {
     text-align: center;
@@ -28,62 +24,20 @@ body {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
 }
-
-
-
 #education {
     margin: 20px 20px 20px 20px;
     background-color: beige;
     width: 14%;
-
-
 }
 
-.skills {
-
-    text-align: left;
+#education.skills {
+    text-decoration-color: blue;
     background-color: bisque;
-
     display: block;
     text-align: left;
-    border: solid; border-width: 1px;
-
-}
-span.dropt {
-    margin: 0px 0px 0px 0px;
-}
-span.dropt:hover {
-    text-decoration: none;
-    z-index: 6;
-}
-span.dropt span {
-    position: absolute;
-    left: -9999px;
-    margin: 20px 0 0 0px;
-    padding: 3px 3px 3px 3px;
-    z-index: 6;
-}
-span.dropt:hover span {
-    left: 1%;
-    background: #ffffff;
-}
-span.dropt span {
-    position: absolute;
-    left: -9999px;
-    margin: 4px 0 0 0px;
-    padding: 3px 3px 3px 3px;
-
-    border-style: none;
-    border-color: black;
+    border: solid;
     border-width: 1px;
-
 }
-span.dropt:hover span {
-    margin: 20px 0 0 170px;
-    background: #ffffff;
-    z-index: 6;
-}
-
 footer {
     position: fixed;
     bottom: 0%;
