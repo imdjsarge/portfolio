@@ -29,6 +29,11 @@ address {
     display: block;
     margin-left: 20px;
 }
+#education {
+  
+    background-color: white;
+
+}
 footer {
     position: fixed;
     bottom: 0%;
