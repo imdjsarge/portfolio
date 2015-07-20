@@ -4,43 +4,19 @@ html {
 }
 body {
     margin-top: 50px;
+    background-color: #cccccc;
 }
-
-#edu {
-    background-image: url(images/info_tech_background.jpg);
-    
-    
-}
-.title {
-    text-align: center;
-    font-size: 30px;
-    border: solid;
-    width: 50%;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-}
-
-
-
 #education {
-    margin: 20px 20px 20px 20px;
-    align-content: center;
-    background-color; 
-
-    
+    margin: 20px 0px 0px 20px;
+    background-color: beige;
+    width: 14%;
 }
 .skills {
-    display: block;
-    text-align: center;
-    border: solid; border-width: 1px;
+    text-align: left;
+    background-color: bisque;
 }
 span.dropt {
     margin: 0px 0px 0px 0px;
-    border-bottom: solid;
-    border-width: 2px;
-    border-color: black;
 }
 span.dropt:hover {
     text-decoration: none;
@@ -51,24 +27,17 @@ span.dropt span {
     left: -9999px;
     margin: 20px 0 0 0px;
     padding: 3px 3px 3px 3px;
-    border-style: solid;
-    border-color: black;
-    border-width: 3px;
     z-index: 6;
 }
 span.dropt:hover span {
     left: 1%;
     background: #ffffff;
-    background-color: blue;
 }
 span.dropt span {
     position: absolute;
     left: -9999px;
     margin: 4px 0 0 0px;
     padding: 3px 3px 3px 3px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
 }
 span.dropt:hover span {
     margin: 20px 0 0 170px;

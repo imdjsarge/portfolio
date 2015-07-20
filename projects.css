@@ -4,9 +4,8 @@ html {
 }
 body {
     margin-top: 60px;
+      background-color: #cccccc;
 }
-
-
 navbar {
     position: fixed;
     top: 0%;

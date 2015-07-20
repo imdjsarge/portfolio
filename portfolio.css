@@ -5,32 +5,29 @@ html {
 
 body {
     margin-top: 50px;
+    background-color: #cccccc;
 }
 
-#wallpaper {
-    background-position: center;
-    background-repeat: no-repeat;
+
+#linkedin {
+ padding: 5px 0px 0px 19px;   
 }
 
-i {
-
-}
-#background {
-
-}
-
-section {
-    margin-bottom: 10px;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
+.welcome {
+    display: inline;
+    font-weight: bold;
+    text-align: center;
+    font-family: ludica handwritting, brush script; cursive;
+    font-size: 20px;
+    
+    
 }
 
 
 
 .sarge {
     margin: 10px 0px 20px 20px;
+    float: none;
 }
 
 
