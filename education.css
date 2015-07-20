@@ -7,7 +7,7 @@ body {
 }
 
 #edu {
-    background-image: url(images/info_tech_background.jpg);
+    background-color: dimgrey;
     
     
 }
@@ -26,14 +26,14 @@ body {
 
 #education {
     margin: 20px 20px 20px 20px;
-    align-content: center;
-    background-color; 
+    background-color: beige;
+    width: 14%;
 
-    
 }
+
 .skills {
     display: block;
-    text-align: center;
+    text-align: left;
     border: solid; border-width: 1px;
 }
 span.dropt {
@@ -66,7 +66,7 @@ span.dropt span {
     left: -9999px;
     margin: 4px 0 0 0px;
     padding: 3px 3px 3px 3px;
-    border-style: solid;
+    border-style: none;
     border-color: black;
     border-width: 1px;
 }
@@ -75,6 +75,7 @@ span.dropt:hover span {
     background: #ffffff;
     z-index: 6;
 }
+
 footer {
     position: fixed;
     bottom: 0%;
