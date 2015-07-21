@@ -49,11 +49,10 @@ body {
     font-weight: bold;
     font-family: serif;
 }
-.skills {
-    font-weight: bolder;
-    
-}
 
+.row {
+    font-weight: bolder;
+}
 .dropt img {
     padding: 10px 0px 0px 0px;
 }
