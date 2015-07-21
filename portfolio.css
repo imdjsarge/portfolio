@@ -61,7 +61,10 @@ body {
     text-align: center;
     background-color: darkgrey;
 }
-
+.dropt .class {
+    font-weight: bold;   
+    background-color: darkgrey;
+}
 #projects {
     margin-bottom: 50px;
 }
