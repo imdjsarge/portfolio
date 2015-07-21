@@ -39,7 +39,11 @@ body {
     margin: 10px 0px 10px 0px;
     float: none;
 }
-
+#education {
+    border-top: solid;
+    border-bottom: solid;
+    
+}
 .school {
     text-align: center;
     font-weight: bold;
