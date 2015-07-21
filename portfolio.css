@@ -5,58 +5,69 @@ html {
 #wallpaper {
     background-color: #cccccc;
 }
+.navbar {
+    color: #cccccc;
+}
+#background {
+    background-color: darkkhaki
+}
 body {
     margin-top: 50px;
 }
-
+.inspire {
+    width: 20%;
+    text-align: right;
+    color: white;
+    text-shadow: 2px 2px 8px #000000;
+    display: block;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: serif;
+    top: 0%;
+    right: 0%;
+}
+.nerd {
+    color: white;
+    text-shadow: 2px 2px 8px #000000;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 50px;
+    right: 0;
+}
 .linkedin {
     padding: 5px 0px 0px 0px;
-}
-.welcome {
-    display: inline;
-    font-weight: bold;
-    text-align: center;
-    font-family: Times New Roman, Georgia, serif;
-    font-size: 20px;
 }
 .sarge {
     margin: 10px 0px 10px 0px;
     float: none;
 }
-.school{
+#education {
+    background-color: bisque
+}
+.school {
     text-align: center;
     font-weight: bold;
     font-family: serif;
-
-    }
-
-#education {
-    background-color: darkgoldenrod
 }
 .dropt img {
-    padding-top: 5px;
+    padding: 10px 0px 0px 0px;
 }
-
 .edu {
     text-align: center;
-
 }
-
 #skills {
     background-color: floralwhite;
     border-bottom: solid;
-    border-top: solid; border-top-width: 1px;
-
+    border-top: solid;
+    border-top-width: 1px;
 }
-
 #projects {
     margin-bottom: 50px;
-    
 }
 #portfolio {
     text-align: center;
     background-color: cornsilk;
-
+    margin-bottom: 50px;
 }
 .projects img {
     margin: 50px 0px 60px 20px;
@@ -67,10 +78,8 @@ footer {
     bottom: 0%;
     padding-top: 15px;
     text-align: center;
-    background-color: #000000;
-    text-decoration-color: white;
+    background-color: #cccccc;
     font-weight: bolder;
     width: 100%;
     height: 50px;
-    margin-top: 50px;
 }
