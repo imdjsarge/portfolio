@@ -3,14 +3,12 @@ html {
     min-height: 100%;
 }
 #wallpaper {
-    background-color: #cccccc;
+    background-color: #F8F8F8 ;
 }
 .navbar {
-    color: #cccccc;
+    background-color: #cccccc;
 }
-#background {
-    background-color: darkkhaki
-}
+
 body {
     margin-top: 50px;
 }
@@ -32,7 +30,7 @@ body {
     display: inline-block;
     font-family: cursive;
     font-size: 50px;
-    right: 0;
+    text-align: center;
 }
 .linkedin {
     padding: 5px 0px 0px 0px;
@@ -41,34 +39,30 @@ body {
     margin: 10px 0px 10px 0px;
     float: none;
 }
-#education {
-    background-color: bisque
-}
+
 .school {
     text-align: center;
     font-weight: bold;
     font-family: serif;
 }
-
+.skills {
+    font-weight: bolder;
+    
+}
 
 .dropt img {
     padding: 10px 0px 0px 0px;
 }
 .edu {
     text-align: center;
+    background-color: darkgrey;
 }
-#skills {
-    background-color: floralwhite;
-    border-bottom: solid;
-    border-top: solid;
-    border-top-width: 1px;
-}
+
 #projects {
     margin-bottom: 50px;
 }
 #portfolio {
     text-align: center;
-    background-color: cornsilk;
     margin-bottom: 50px;
 }
 .projects img {
