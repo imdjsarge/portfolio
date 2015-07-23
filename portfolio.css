@@ -1,3 +1,4 @@
+
 html {
     position: relative;
     min-height: 100%;
@@ -15,8 +16,8 @@ body {
 }
 
 #background {
-       margin-bottom: 200px;
-    padding-bottom: 300px;
+       margin-bottom: 20px;
+ 
 }
 address {
     font-weight: bolder
@@ -27,9 +28,9 @@ address {
     color: white;
     text-shadow: 2px 2px black;
     display: block;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bolder;
-    font-family: serif;
+    font-family: cursive;
     top: 0%;
     right: 0%;
 }
@@ -38,7 +39,7 @@ address {
     text-shadow: 2px 2px 8px #000000;
     display: inline-block;
     font-family: cursive;
-    font-size: 60px;
+    font-size: 90px;
     text-align: center;
 }
 .linkedin {
@@ -49,9 +50,7 @@ address {
     float: none;
 }
 #education {
-
-     padding-top: 40px;
-    margin-bottom: 50px
+     padding-top:30px;
     
 }
 .school {
@@ -81,7 +80,7 @@ address {
 }
 #portfolio {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
 
    
 }
@@ -90,7 +89,7 @@ address {
     box-shadow: 3px 3px 3px #ffffff;
 }
 #contact {  
-    margin-top: 5000px;
+    padding-bottom: 480px;
 
 }
 footer {
