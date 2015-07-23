@@ -3,22 +3,31 @@ html {
     min-height: 100%;
 }
 #wallpaper {
-    background-color: #F8F8F8 ;
+    background-color: #8a8a8a ;
 }
 .navbar {
-    background-color: #cccccc;
+    margin-bottom: 50px;
 }
 
 body {
-    margin-top: 50px;
+    padding-top: 50px;
+    
+}
+
+#background {
+       margin-bottom: 200px;
+    padding-bottom: 300px;
+}
+address {
+    font-weight: bolder
 }
 .inspire {
     width: 20%;
-    text-align: right;
+    text-align: center;
     color: white;
-    text-shadow: 2px 2px 8px #000000;
+    text-shadow: 2px 2px black;
     display: block;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bolder;
     font-family: serif;
     top: 0%;
@@ -29,7 +38,7 @@ body {
     text-shadow: 2px 2px 8px #000000;
     display: inline-block;
     font-family: cursive;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
 }
 .linkedin {
@@ -40,8 +49,9 @@ body {
     float: none;
 }
 #education {
-    border-top: solid;
-    border-bottom: solid;
+
+     padding-top: 40px;
+    margin-bottom: 50px
     
 }
 .school {
@@ -52,9 +62,11 @@ body {
 
 .row {
     font-weight: bolder;
+    background-color: #8a8a8a ;
 }
 .dropt img {
-    padding: 10px 0px 0px 0px;
+ transition-property: all;
+    
 }
 .edu {
     text-align: center;
@@ -65,15 +77,21 @@ body {
     background-color: darkgrey;
 }
 #projects {
-    margin-bottom: 50px;
+    margin-bottom: 200px;
 }
 #portfolio {
     text-align: center;
-    margin-bottom: 50px;
+    padding-top: 40px;
+
+   
 }
 .projects img {
     margin: 50px 0px 60px 20px;
     box-shadow: 3px 3px 3px #ffffff;
+}
+#contact {  
+    margin-top: 5000px;
+
 }
 footer {
     position: fixed;
